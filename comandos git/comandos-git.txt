@@ -1,0 +1,22 @@
+-----------COMANDOS GIT-----------
+1º CRIAR BRANCH NO REPOSITORIO REMOTO 						        (colocar o nome IMPLEMENTACAO_NUMERO_DO_CHAMADO)
+2º EXECUTAR O COMANDO PARA BUSCAR A BRANCH QUE FOI CRIADA NO REMOTO (git fetch)
+3º mudar para a branch local que foi criada                         (git checkout nome_da_Branch)
+4º Atualiza somente a Branches atual                                (git pull)
+--------------------------------------
+
+git branch --> lista todas as branchs
+git pull origin homologacao --> baixar atualizacoes da branch escolhida
+git status --> ver o que foi modificado ou esta pendente
+git config --list (lista as configurações inclusive usuario/email)
+git config --global user.email (informa email)
+git config --global user.name  (informa nome)
+git config --global --unset user.email (apaga email)
+git config --global --unset user.name  (apaga nome)
+git remote add origin https://github.com/DrikoArgon/sos-animal-app.git (exemplo comando para vincular o git local ao git remoto)
+git remote -v (lista os repositorios remotos)
+git add * (adiciona todos os arquivos para stage)
+git add nome_do_aequivo (adiciona arquivo para stage)
+git add . (adiciona todos os arquivos para stage)
+git commit-m "informar_aqui_texto_da_modificacao"
+git push origin master (puxa para a branch remota as modificações)
